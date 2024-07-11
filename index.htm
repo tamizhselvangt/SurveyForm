@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SurveyForm</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="Survey" class="form">
+        <div class="input-group">
+          <div class="input">
+            <label for="fname">FirstName</label>
+            <input type="text" name="name" id="fname" />
+          </div>
+          <div class="input lname">
+            <label for="lname">LastName</label>
+            <input type="text" name="name" id="lname" />
+          </div>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="question">
+          <h4>How was your Experience?</h4>
+          <br />
+          <div class="star-group">
+            <img src="pngegg.png" alt="star-group" />
+            <img src="pngegg.png" alt="star-group" />
+            <img src="pngegg.png" alt="star-group" />
+            <img src="pngegg.png" alt="star-group" />
+          </div>
+        </div>
+        <span>Was Our Representative?</span>
+        <div class="checkbox-group">
+          <span class="checkbox"
+            ><input type="checkbox" />
+            <label for="checkbox">Professional</label></span
+          >
+          <span class="checkbox"
+            ><input type="checkbox" />
+            <label for="checkbox">Effective</label></span
+          >
+          <span class="checkbox"
+            ><input type="checkbox" />
+            <label for="checkbox">Humble</label></span
+          >
+          <span class="checkbox"
+            ><input type="checkbox" />
+            <label for="checkbox">Patient</label></span
+          >
+          <span class="checkbox"
+            ><input type="checkbox" />
+            <label for="checkbox">Respectfull</label></span
+          >
+          <span class="checkbox"
+            ><input type="checkbox" />
+            <label for="checkbox">Friendly</label></span
+          >
+        </div>
+        <button type="button">Submit Feedback</button>
+      </form>
+    </div>
+  </body>
+</html>
